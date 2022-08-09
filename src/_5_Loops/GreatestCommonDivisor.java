@@ -26,5 +26,4 @@ public class GreatestCommonDivisor {
                      " and " + number2 + " is " + gcd);
 
     }
-
 }

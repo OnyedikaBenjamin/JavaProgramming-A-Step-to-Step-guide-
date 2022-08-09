@@ -28,6 +28,6 @@ public class DietelChapter2Exercise {
         char fourth = numberEntered.charAt(3);
         char fifth = numberEntered.charAt(4);
 
-        System.out.println(first+"   "+second+"   "+third+"   "+ fourth+"   "+fifth);
+        System.out.println(first + "   " +second + "   " + third + "   " + fourth + "   " + fifth);
     }
 }

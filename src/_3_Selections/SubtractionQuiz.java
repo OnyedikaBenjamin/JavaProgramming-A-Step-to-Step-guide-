@@ -27,7 +27,5 @@ package _3_Selections;
             System.out.println("You are wrong.");
             System.out.println("The correct answer should be " + (number1 - number2));
         }
-
-
     }
 }

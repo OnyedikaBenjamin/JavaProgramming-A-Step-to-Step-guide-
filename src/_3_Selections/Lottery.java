@@ -16,9 +16,9 @@ public class Lottery {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        int winningNumber = (int) (Math.random() * 100);
-        int lotteryDigit1 = winningNumber / 10;
-        int lotteryDigit2 = winningNumber % 10;
+        int winningNumber = (int) (Math.random() * 100);       // Winning number ranges from 0 to 99.
+        int lotteryDigit1 = winningNumber / 10;               //  The first digit of the winning number.
+        int lotteryDigit2 = winningNumber % 10;              //   The Second digit of the winning number.
 
         System.out.println(winningNumber + " is the winning number");
         

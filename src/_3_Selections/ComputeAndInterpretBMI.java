@@ -43,7 +43,5 @@ package _3_Selections;
               else if (30.0 <= bmi)
                  System.out.println("Obese");
 
-
-
          }
      }
