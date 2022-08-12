@@ -25,7 +25,6 @@ public class TestPassByValue {
         System.out.println("\tInside the swap method");
         System.out.println("\t\tAfter swapping, a is " + a+
                 " and b is " + b);
-        
     }
 }
 

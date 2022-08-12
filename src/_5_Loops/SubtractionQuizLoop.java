@@ -11,7 +11,7 @@ package _5_Loops;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        long startTime = System.currentTimeMillis();
+        long startTime = System.currentTimeMillis();      // The test starts here......
 
         int count         = 0;
         int correctCount  = 0;
@@ -26,7 +26,7 @@ package _5_Loops;
 
             int emptyContainer =0;
             if (randomNumber1 < randomNumber2)
-
+                /** swap number1 and number2 */
                 emptyContainer = randomNumber1;
                 randomNumber1 = randomNumber2;
                 randomNumber2 = emptyContainer;
@@ -52,7 +52,7 @@ package _5_Loops;
                     ((randomNumber1 - randomNumber2 == userAnswer) ? " correct" : " wrong");
 
         }
-        long endTime = System.currentTimeMillis();
+        long endTime = System.currentTimeMillis();       // The test ends here
         long testTime = endTime - startTime;
 
         System.out.println("Your test time is : " + (testTime/1000) + " seconds");
