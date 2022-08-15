@@ -82,6 +82,16 @@ public class ProcessingArrays {
             }
             System.out.println("The maximum number is : " + theMaximumOfTheNumbers + " and it is at index " + n);
         }
+//----------------- (7) Copying Arrays ------------------------------------------------------
+        int[] sourceArray = {2, 3, 1, 5, 10};
+        int[] targetArray = new int[sourceArray.length];
+
+        System.arraycopy(sourceArray, 0, targetArray, 0, sourceArray.length);
+
+        /** The above functions copies the elements from the source array to the target array
+         *  The System.arraycopy is a java class. The parameters srcPos and destPos indicate the
+         *  starting positions in sourceArray and targetArray, respectively.
+         *The number of elements copied from sourceArray to targetArray is indicated by length */
 
     }
 }
