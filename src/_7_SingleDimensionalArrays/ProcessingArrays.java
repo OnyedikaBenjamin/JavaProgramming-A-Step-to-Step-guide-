@@ -25,7 +25,7 @@ public class ProcessingArrays {
 
             int[] myList2 = new int[10];
             for (int j = 0; j < myList2.length; j++) {
-                myList2[(int)j] = (int) (Math.random() * 100);
+                myList2[j] = (int) (Math.random() * 100);
             }
             /**
              * The above loop initializes the array myList
@@ -63,6 +63,7 @@ public class ProcessingArrays {
             int indexOfMax = m;      // This shows the index of the largest of the numbers.
             System.out.println(max + " is the largest of the elements when compared to index " + indexOfMax);
             /**
+             *
              * Initially max is myList[0]. To find the largest element in the array myList, compare
              * each element with max, and update max if the element is greater than max.
              */

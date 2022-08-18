@@ -10,14 +10,14 @@ public class AnalyzeNumbers {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("How many items do you wanna compute? : ");
+        System.out.print("How many items do you want to compute? : ");
         int numberOfItems = input.nextInt();
 
         int [] items = new int[numberOfItems];
         int sum = 0;
 
          // Always initialize your counter to start at 0 to avoid "array out of bound exception".
-        //  and the condition must not have the = operator for example i <= 10 can cause an error
+        //  and the condition must not have the = operator for example i <= 10 can cause an exception
 
         for(int i = 0;  i < numberOfItems; i++){
             System.out.print("Enter the number at index " + i + " : ");

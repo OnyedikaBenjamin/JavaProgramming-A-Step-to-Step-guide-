@@ -5,9 +5,9 @@ package _7_SingleDimensionalArrays;
 
 public class CountLettersInArray {
 
-    /** Here I will create the array */
+    /** Here I created the array */
  public static char[] createArray() {
-         // Here I declared an array of characters and create it
+         // I declared an array of characters and create it
          char[] chars = new char[100];
 
          // Create lowercase letters randomly and assign them to the array

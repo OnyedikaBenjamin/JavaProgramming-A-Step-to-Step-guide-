@@ -20,12 +20,6 @@ public class SortingAnArray {
         for (int i = 0; i < myList.length; i++) {
             System.out.println(myList[i]);
         }
-
-//        for (int j : myList) {            we can use this enhanced for loop instead of using the for loop above.
-//            System.out.println(j);
-//        }
-
-
     }
 
     public static void main (String [] args) {

@@ -1,5 +1,7 @@
 package _8_MultiDimensionalArrays;
 
+import java.util.Scanner;
+
 public class ProcessingTwoDimensionalArrays {
     public static void main(String[] args) {
 
@@ -10,14 +12,14 @@ public class ProcessingTwoDimensionalArrays {
 
          // -------------(1) Initializing arrays with input values.-------------------
 
-//        Scanner input = new Scanner(System.in);
-//
-//        System.out.println("Enter " + matrix.length + " rows and " + matrix[0].length + " columns.");
-//        for(int rows =0; rows < matrix.length; rows++){
-//            for(int columns =0; columns < matrix[0].length; columns++){
-//                matrix[rows][columns] = input.nextInt();
-//            }
-//        }
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter " + matrix.length + " rows and " + matrix[0].length + " columns.");
+        for(int rows =0; rows < matrix.length; rows++){
+            for(int columns =0; columns < matrix[0].length; columns++){
+                matrix[rows][columns] = input.nextInt();
+            }
+        }
 
         // -----------(2) Initializing arrays with random values ---------------------
 
@@ -47,55 +49,40 @@ public class ProcessingTwoDimensionalArrays {
             }
         }
 
-        //-----------------(5) Summing elements by column -------------------------
+        //-----------------(5) Which row has the largest sum? -------------------------
 
-        // For each column, use a variable named total to store its sum. Add each element in the column to total using a loop like this:
+        int maxRow = 0;
+        int indexOfMaxRow = 0;
 
-        //
-        //for (int column = 0; column < matrix[0].length; column++) {
-        //int total = 0;
-        //for (int row = 0; row < matrix.length; row++)
-        // total += matrix[row][column];
-        // System.out.println("Sum for column " + column + " is "
-        // + total);
-        //}
-        //6. Which row has the largest sum? Use variables maxRow and indexOfMaxRow to track
-        //the largest sum and index of the row. For each row, compute its sum and update maxRow
-        //and indexOfMaxRow if the new sum is greater.
-        //int maxRow = 0;
-        //int indexOfMaxRow = 0;
-        //// Get sum of the first row in maxRow
-        //for (int column = 0; column < matrix[0].length; column++) {
-        // maxRow += matrix[0][column];
-        //}
-        //for (int row = 1; row < matrix.length; row++) {
-        //int totalOfThisRow = 0;
-        //for (int column = 0; column < matrix[row].length; column++)
-        // totalOfThisRow += matrix[row][column];
-        //if (totalOfThisRow > maxRow) {
-        // maxRow = totalOfThisRow;
-        // indexOfMaxRow = row;
-        // }
-        //}
-        //System.out.println("Row " + indexOfMaxRow
-        // + " has the maximum sum of " + maxRow);
-        //7. Random shuffling. Shuffling the elements in a one-dimensional array was introduced
-        //in Section 7.2.6. How do you shuffle all the elements in a two-dimensional array? To
-        //accomplish this, for each element matrix[i][j], randomly generate indices i1 and
-        //j1 and swap matrix[i][j] with matrix[i1][j1], as follows:
-        //for (int i = 0; i < matrix.length; i++) {
-        //for (int j = 0; j < matrix[i].length; j++) {
-        //int i1 = (int)(Math.random() * matrix.length);
-        //int j1 = (int)(Math.random() * matrix[i].length);
-        //// Swap matrix[i][j] with matrix[i1][j1]
-        //VideoNote
-        //Find the row with the largest
-        //sum
-        //8.4 Passing Two-Dimensional Arrays to Methods 293
-        // int temp = matrix[i][j];
-        // matrix[i][j] = matrix[i1][j1];
-        // matrix[i1][j1] = temp;
-        // }
+       /** Get sum of the first row in maxRow */
+
+        for (int column = 0; column < matrix[0].length; column++) {
+            maxRow += matrix[0][column];
+        }
+        for (int row = 1; row < matrix.length; row++) {
+            int totalOfThisRow = 0;
+            for (int column = 0; column < matrix[row].length; column++)
+                totalOfThisRow += matrix[row][column];
+            if (totalOfThisRow > maxRow) {
+                maxRow = totalOfThisRow;
+                indexOfMaxRow = row;
+            }
+        }
+        System.out.println("Row " + indexOfMaxRow
+                + " has the maximum sum of " + maxRow);
+
+        //----------(6) How do we shuffle all the elements in a two-dimensional array? ---------
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                int i1 = (int)(Math.random() * matrix.length);
+                int j1 = (int)(Math.random() * matrix[i].length);
+// Swap matrix[i][j] with matrix[i1][j1]
+                double temp = matrix[i][j];
+                matrix[i][j] = matrix[i1][j1];
+                matrix[i1][j1] = temp;
+            }
+        }
 
 
 
