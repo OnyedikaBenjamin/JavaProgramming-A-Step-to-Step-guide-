@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="Java">
-      <change afterPath="$PROJECT_DIR$/test/Others/ComputeLoanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/Others/BikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/Others/BikeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Others/ComputeLoanNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/ComputeLoanNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/NotesOnOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10__ObjectOrientedThinking/NotesOnOOP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +178,7 @@
       <workItem from="1661474824468" duration="609000" />
       <workItem from="1661491462205" duration="3076000" />
       <workItem from="1661516161790" duration="2034000" />
-      <workItem from="1661518812374" duration="12132000" />
+      <workItem from="1661518812374" duration="12450000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -211,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661526081417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java">
+      <created>1661532469048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661532469048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java">
+      <created>1661532476664</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661532476664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
