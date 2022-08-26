@@ -12,7 +12,7 @@ public class ComputeLoanNew {
     this.numberOfYears = numberOfYears;
     this.loanAmount = loanAmount;
     }
-    public ComputeLoanNew() {}  // My flaw off * 1
+    public ComputeLoanNew() {}
     public void setAnnualInterest(double annualInterest) {
         validateAnnualInterest(annualInterest);
         this.annualInterest = annualInterest;

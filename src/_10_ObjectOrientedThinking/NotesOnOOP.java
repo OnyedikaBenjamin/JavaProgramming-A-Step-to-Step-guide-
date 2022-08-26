@@ -1,4 +1,4 @@
-package _10__ObjectOrientedThinking;
+package _10_ObjectOrientedThinking;
 /**
  *ABSTRACTION :
  *  Abstraction have to do with hiding the implementation of a method from the caller of the object.
