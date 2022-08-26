@@ -12,14 +12,30 @@ public class ComputeLoanNew {
     this.numberOfYears = numberOfYears;
     this.loanAmount = loanAmount;
     }
+    public ComputeLoanNew() {}  // My flaw off * 1
     public void setAnnualInterest(double annualInterest) {
+        validateAnnualInterest(annualInterest);
         this.annualInterest = annualInterest;
     }
+    private void validateAnnualInterest(double annualInterest) {
+        if (annualInterest < 0) throw new IllegalArgumentException
+                (String.format("%s", "Annual Interest  cannot be less than 0"));
+    }
     public void setNumberOfYears(int numberOfYears) {
+        validateNumberOfYears(numberOfYears);
         this.numberOfYears = numberOfYears;
     }
+    private void validateNumberOfYears(int numberOfYears) {
+        if (numberOfYears < 1) throw new IllegalArgumentException
+                (String.format("%s", "Number of years cannot be less than 1"));
+    }
     public void setLoanAmount(double loanAmount) {
+        validateLoanAmount(loanAmount);
         this.loanAmount = loanAmount;
+    }
+    private void validateLoanAmount(double loanAmount) {
+        if (loanAmount < 0) throw new IllegalArgumentException
+                (String.format("%s","Loan amount cannot be less than 0"));
     }
     public double getAnnualInterest() {
         return annualInterest;
@@ -42,12 +58,12 @@ public class ComputeLoanNew {
         double monthlyPayment;
         monthlyPayment = getLoanAmount() * getMonthlyInterestRate() / (1
                  - 1 / Math.pow(1 + getMonthlyInterestRate(), getNumberOfYears()* 12));
-        return monthlyPayment;
+        return Math.round(monthlyPayment);
     }
     public double getTotalPayment(){
         double totalPayment;
         totalPayment = getMonthlyPayment() * getNumberOfYears() * 12;
-        return totalPayment;
+        return Math.round(totalPayment);
     }
     public static void main(String[] args) {
 
@@ -56,9 +72,8 @@ public class ComputeLoanNew {
         loan1.setNumberOfYears(5);
         loan1.setLoanAmount(1000);
         System.out.println("The loan was created on " +  loan1.getDate());
-        System.out.printf("%s %.2f %n", "The monthly payment is ", loan1.getMonthlyPayment());
-        System.out.printf("%s %.2f ", "The total payment is ",  loan1.getTotalPayment());
+        System.out.printf("%s %f %n", "The monthly payment is ", loan1.getMonthlyPayment());
+        System.out.printf("%s %f ", "The total payment is ",  loan1.getTotalPayment());
     }
-
 
 }
