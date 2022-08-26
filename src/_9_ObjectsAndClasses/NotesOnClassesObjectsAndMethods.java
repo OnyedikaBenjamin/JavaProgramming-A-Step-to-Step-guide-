@@ -31,8 +31,20 @@
  *  reference to the variable before invoking the method through the reference variable
  *
  *    Note that Java API contains a rich set of classes for developing Java programs.
- *  All the classes in the java library are all static classes.*/
+ *  All the classes in the java library are all static classes.
+        When should we declare a method static?
+        Ans : When it does not use any instance variable
 
+        How do we know we need an Instance Variable?
+        ANS : when it will be used in more than one method.
+
+        Implicitly : when it is done by you.
+        Explicitly : when it is done by your compiler.
+
+        What do we test for?
+        - we test for functionalities and not methods
+        (i.e we test that deposit works and not deposit method works.)
+        */
 
 package _9_ObjectsAndClasses;
 

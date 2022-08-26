@@ -1,3 +1,4 @@
+import Others.CopyArray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +15,9 @@ public class CopyArrayTest {
         int[] array = {3, 67, 34, 6, 9};
         assertEquals(array.length, copyArray.copyElementsOfArray(array));
     }
+    //TODO I will have to create a method that replicates all the elements of an array and also test it
+
+    public void testThatPrintingOccurs(){}
 
 
 

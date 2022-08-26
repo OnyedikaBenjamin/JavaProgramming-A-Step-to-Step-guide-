@@ -1,3 +1,5 @@
+package Others;
+
 public class Native {
     private int cohortId;
     private int scvId;

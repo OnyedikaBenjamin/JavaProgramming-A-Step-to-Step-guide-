@@ -1,4 +1,4 @@
-// Write a program that takes in a number, and reverses it  i.e 26789 to 98726
+package Others;// Write a program that takes in a number, and reverses it  i.e 26789 to 98726
 
 public class Reverse {
 public static int reverseNumber(int numberToReverse) {

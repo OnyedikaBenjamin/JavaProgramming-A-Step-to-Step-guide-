@@ -1,3 +1,5 @@
+package Others;
+
 public class CopyArray {
 
     public static int copyElementsOfArray(int[]arrayA){
