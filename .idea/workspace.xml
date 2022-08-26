@@ -2,33 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="Java">
-      <change afterPath="$PROJECT_DIR$/src/Others/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/Dogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/TestLoan2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Others/Trial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_3_Selections/Vehicle/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_3_Selections/Vehicle/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_3_Selections/Vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Others/BikeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Animal/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Animal/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Animal/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Bike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/CopyArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Dogs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Factors.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/MyFirstTdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Native.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/NestedForLoops.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Time.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/TimmyTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Outlander.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/NotesOnOOP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Vehicle/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Vehicle/Toyota.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Vehicle/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/CopyArrayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/Others/BikeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/AnimalInheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/AnimalInheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/AnimalInheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/ComputeLoanNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/TimmyTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/VehicleInheritance/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/VehicleInheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/VehicleInheritance/Outlander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Others/VehicleInheritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/NotesOnOOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Factors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/MyFirstTdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Native.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/NestedForLoops.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_9_ObjectsAndClasses/NotesOnClassesObjectsAndMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_9_ObjectsAndClasses/NotesOnClassesObjectsAndMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/NativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/NativeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/CopyArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/Factors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyFirstTdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/MyFirstTdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Native.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/Native.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NestedForLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/NestedForLoops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/NotesOnClassesObjectsAndMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/NotesOnClassesObjectsAndMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CopyArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CopyArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/NativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/NativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_2_ElementaryProgramming/ComputeLoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_2_ElementaryProgramming/ComputeLoan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_ElementaryProgramming/ComputeLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_ElementaryProgramming/ComputeLoan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +99,22 @@
       <recent name="Others" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BikeTest.testThatBikeCanBeTurnedOn">
-    <configuration name="Dogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.Dogs" />
+  <component name="RunManager" selected="Application.ComputeLoanNew">
+    <configuration name="ComputeLoan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_ElementaryProgramming.ComputeLoan" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2_ElementaryProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeLoanNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.ComputeLoanNew" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Animal.Main" />
+    <configuration name="DateAndTimeClassAndObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_9_ObjectsAndClasses.DateAndTimeClassAndObject" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Animal.*" />
+          <option name="PATTERN" value="_9_ObjectsAndClasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Others.Dogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Others.Dogs" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,32 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Programming (A step to step guide)" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CopyArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CopyArrayTest.copyElementsOfArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Programming (A step to step guide)" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CopyArrayTest" />
-      <option name="METHOD_NAME" value="copyElementsOfArrayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComputeLoanNew" />
+        <item itemvalue="Application.ComputeLoan" />
+        <item itemvalue="Application.DateAndTimeClassAndObject" />
         <item itemvalue="JUnit.BikeTest.testThatBikeCanBeTurnedOn" />
-        <item itemvalue="Application.Dogs" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CopyArrayTest.copyElementsOfArrayTest" />
-        <item itemvalue="JUnit.CopyArrayTest" />
+        <item itemvalue="Application.Others.Dogs" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +207,8 @@
       <workItem from="1661448619197" duration="4351000" />
       <workItem from="1661474824468" duration="609000" />
       <workItem from="1661491462205" duration="3076000" />
+      <workItem from="1661516161790" duration="2034000" />
+      <workItem from="1661518812374" duration="5866000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -205,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661175950134</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Java">
+      <created>1661516389020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661516389020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +264,15 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Others/ComputeLoanNew.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

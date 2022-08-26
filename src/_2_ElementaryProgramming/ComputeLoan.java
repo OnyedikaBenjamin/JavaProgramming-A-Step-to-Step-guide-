@@ -26,6 +26,12 @@ import java.util.Scanner;
             double monthlyPayment = loanAmount * monthlyInterestRate / (1
                     - 1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12));
 
+            double totalPayment = monthlyPayment * numberOfYears * 12;
 
+
+            System.out.println("The monthly payment is $" +
+                   monthlyPayment);
+            System.out.println("The total payment is $" +
+                    totalPayment);
         }
     }
