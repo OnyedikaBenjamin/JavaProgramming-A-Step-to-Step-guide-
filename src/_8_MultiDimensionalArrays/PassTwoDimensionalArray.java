@@ -13,9 +13,9 @@ package _8_MultiDimensionalArrays;
 
         Scanner input = new Scanner(System.in);
 
-        int[][] arrayList = new int[4][3];    // We specified the size of the array we want our user to input.
+        int[][] arrayList = new int[3][3];    // We specified the size of the array we want our user to input.
 
-        System.out.println("Enter " + arrayList.length + " rows and " + arrayList[0].length + " column." );  // i.e enter 4 rows and 3 columns.
+        System.out.println("Enter " + arrayList.length + " rows and " + arrayList[0].length + " column : " );  // i.e enter 4 rows and 3 columns.
 
         for(int row = 0; row < arrayList.length; row++)
             for (int column = 0; column < arrayList[row].length; column++)
@@ -23,12 +23,11 @@ package _8_MultiDimensionalArrays;
                 arrayList[row][column] = input.nextInt(); // Input the values of the rows and the columns.
         return arrayList;
     }
-
-     public static int sum(int [][] arrayList) {
+    public static int sum(int [][] arrayList) {
          int total = 0;
          for (int row = 0; row < arrayList.length; row++)
              for (int column = 0; column < arrayList[0].length; column++)
-                 total += arrayList[row][column];
+                total += arrayList[row][column];
          return total;
      }
 

@@ -1,4 +1,4 @@
-import Others.Native;
+import _9_ObjectsAndClasses.Native;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

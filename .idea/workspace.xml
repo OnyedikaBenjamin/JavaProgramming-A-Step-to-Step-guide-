@@ -2,7 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="Java">
-      <change beforePath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/NotesOnOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10__ObjectOrientedThinking/NotesOnOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/BmiNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/StackOfIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_2_ElementaryProgramming/SwapValuesOfVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_3_Selections/DetermineToday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BmiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Animal/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Animal/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Animal/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/ComputeLoanNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/CopyArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Dogs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Factors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/MyFirstTdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Native.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/NestedForLoops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/Others/TimmyTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Outlander.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/VehicleInheritance/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/ComputeAndInterpretBMI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Vehicle/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Vehicle/Toyota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Vehicle/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_8_MultiDimensionalArrays/PassTwoDimensionalArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_8_MultiDimensionalArrays/PassTwoDimensionalArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_9_ObjectsAndClasses/Television.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_9_ObjectsAndClasses/Television.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/CopyArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/CopyArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/NativeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/NativeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/Others/BikeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/Others/ComputeLoanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/AnimalInheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/AnimalInheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/AnimalInheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/AnimalInheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/AnimalInheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/AnimalInheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/ComputeLoanNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/ComputeLoanNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/CopyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_7_SingleDimensionalArrays/CopyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Dogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Factors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/MyFirstTdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/MyFirstTdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/Native.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Native.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/NestedForLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/NestedForLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/TimmyTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/VehicleInheritance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/VehicleInheritance/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/VehicleInheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/VehicleInheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/VehicleInheritance/Outlander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/VehicleInheritance/Outlander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/VehicleInheritance/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/VehicleInheritance/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_3_Selections/ComputeAndInterpretBMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Selections/BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_3_Selections/Vehicle/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_3_Selections/Vehicle/Toyota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_3_Selections/Vehicle/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/PassTwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/PassTwoDimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CopyArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CopyArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/NativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/NativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Others/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BikeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Others/ComputeLoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputeLoanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +126,22 @@
       <recent name="Others" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComputeLoanTest.testThatTotalPaymentsCanBeCalculated">
-    <configuration name="ComputeLoan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2_ElementaryProgramming.ComputeLoan" />
+  <component name="RunManager" selected="Application.DetermineToday">
+    <configuration name="DetermineToday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_3_Selections.DetermineToday" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_3_Selections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwapValuesOfVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2_ElementaryProgramming.SwapValuesOfVariables" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
@@ -77,46 +153,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeLoanNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Others.ComputeLoanNew" />
+    <configuration name="ComputeLoanTest.testThatMonthlyPaymentCanBeCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputeLoanTest.MonthlyPaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.ComputeLoanTest" />
-      <option name="METHOD_NAME" value="MonthlyPaymentTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputeLoanTest" />
+      <option name="METHOD_NAME" value="testThatMonthlyPaymentCanBeCalculated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeLoanTest.testThatMonthlyPaymentCanBeCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputeLoanTest.testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.ComputeLoanTest" />
-      <option name="METHOD_NAME" value="testThatMonthlyPaymentCanBeCalculated" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputeLoanTest" />
+      <option name="METHOD_NAME" value="testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,14 +175,8 @@
     </configuration>
     <configuration name="ComputeLoanTest.testThatTotalPaymentsCanBeCalculated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.ComputeLoanTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputeLoanTest" />
       <option name="METHOD_NAME" value="testThatTotalPaymentsCanBeCalculated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -140,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetermineToday" />
+        <item itemvalue="Application.SwapValuesOfVariables" />
+        <item itemvalue="JUnit.ComputeLoanTest.testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues" />
         <item itemvalue="JUnit.ComputeLoanTest.testThatTotalPaymentsCanBeCalculated" />
         <item itemvalue="JUnit.ComputeLoanTest.testThatMonthlyPaymentCanBeCalculated" />
-        <item itemvalue="JUnit.ComputeLoanTest.MonthlyPaymentTest" />
-        <item itemvalue="Application.ComputeLoanNew" />
-        <item itemvalue="Application.ComputeLoan" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +223,18 @@
       <workItem from="1661474824468" duration="609000" />
       <workItem from="1661491462205" duration="3076000" />
       <workItem from="1661516161790" duration="2034000" />
-      <workItem from="1661518812374" duration="12450000" />
+      <workItem from="1661518812374" duration="16865000" />
+      <workItem from="1661560921854" duration="9598000" />
+      <workItem from="1661587595077" duration="1417000" />
+      <workItem from="1661589117514" duration="20604000" />
+      <workItem from="1661701929281" duration="6042000" />
+      <workItem from="1661717238413" duration="1015000" />
+      <workItem from="1661747665654" duration="230000" />
+      <workItem from="1661750138712" duration="4206000" />
+      <workItem from="1661768707679" duration="6100000" />
+      <workItem from="1661788267813" duration="1622000" />
+      <workItem from="1661828930246" duration="429000" />
+      <workItem from="1661835292034" duration="4959000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -222,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661532476664</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Java">
+      <created>1661532690721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661532690721</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Java">
+      <created>1661532853503</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661532853503</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,10 +325,42 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_10_ObjectOrientedThinking/ComputeLoanNew.java</url>
+          <line>69</line>
+          <properties class="_10_ObjectOrientedThinking.ComputeLoanNew" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Employee.java</url>
+          <line>12</line>
+          <properties class="_8_MultiDimensionalArrays.Employee" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
+          <line>13</line>
+          <properties class="ComputeLoanTest" method="testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Others/ComputeLoanNew.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_8_MultiDimensionalArrays/PassTwoDimensionalArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

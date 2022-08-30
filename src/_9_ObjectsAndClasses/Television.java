@@ -13,13 +13,11 @@ public class Television {
     public void turnOff(){
         on = false;
     }
-
     public void setChannel(int newChannel){
       if(on && newChannel > 1 && newChannel <=120){
           channel = newChannel;
       }
     }
-
     public void setVolume(int newVolume){
         if (on && newVolume >= 1 && newVolume <=7){
             volumeLevel = newVolume;
@@ -49,7 +47,6 @@ public class Television {
             volumeLevel--;
         }
     }
-
     public static void main(String[] args) {
 
         Television tv = new Television();

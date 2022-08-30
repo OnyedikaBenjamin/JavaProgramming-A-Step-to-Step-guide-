@@ -1,4 +1,4 @@
-import Others.CopyArray;
+import _7_SingleDimensionalArrays.CopyArray;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
