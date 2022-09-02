@@ -1,3 +1,6 @@
+//Write a program that takes in a 20 by 20 array and prompts the user
+//to input its values.
+
 package _8_MultiDimensionalArrays;
 
 import java.util.Scanner;

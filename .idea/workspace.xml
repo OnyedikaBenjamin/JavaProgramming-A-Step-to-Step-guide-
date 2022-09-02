@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="Java">
-      <change afterPath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Display2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming (A step to step guide).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming (A step to step guide).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_8_MultiDimensionalArrays/Display2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_8_MultiDimensionalArrays/Display2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_5_Loops/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Display2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Display2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <recent name="Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Display2">
+  <component name="RunManager" selected="Application.MultiplicationTable">
     <configuration name="DetermineToday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_3_Selections.DetermineToday" />
       <module name="Java Programming (A step to step guide)" />
@@ -105,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_5_Loops.MultiplicationTable" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_5_Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwapValuesOfVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_2_ElementaryProgramming.SwapValuesOfVariables" />
       <module name="Java Programming (A step to step guide)" />
@@ -118,23 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeLoanTest.testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Programming (A step to step guide)" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComputeLoanTest" />
-      <option name="METHOD_NAME" value="testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.Display2" />
         <item itemvalue="Application.Display" />
         <item itemvalue="Application.DetermineToday" />
         <item itemvalue="Application.SwapValuesOfVariables" />
-        <item itemvalue="JUnit.ComputeLoanTest.testThatMonthlyPaymentsCannotBeCalculatedWithNegativeValues" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +189,7 @@
       <workItem from="1661876303641" duration="1260000" />
       <workItem from="1661878541815" duration="6367000" />
       <workItem from="1661938600553" duration="5189000" />
-      <workItem from="1662032135329" duration="5447000" />
+      <workItem from="1662032135329" duration="19126000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -249,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661868098958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java">
+      <created>1662039733000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662039733000</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +320,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_8_MultiDimensionalArrays/Display2.java</url>
+          <line>8</line>
+          <properties class="_8_MultiDimensionalArrays.Display2" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
