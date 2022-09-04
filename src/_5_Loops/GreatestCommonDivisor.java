@@ -18,11 +18,14 @@ public class GreatestCommonDivisor {
         int gcd = 1;  // Initial gcd is 1
         int k;       //  Next possible gcd
 
-        for (k = 2; k <= number1 && k <= number2; k++) {
+        for (k = 1; k <= number1 && k <= number2; k++) {
             if (number1 % k == 0 && number2 % k == 0)
                 gcd = k;
         }
         System.out.println("The greatest common divisor for " + number1 +
                      " and " + number2 + " is " + gcd);
     }
+
+    public void setArray(int number1, int number2){}
+
 }
