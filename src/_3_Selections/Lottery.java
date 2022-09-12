@@ -37,8 +37,5 @@ public class Lottery {
                         else {
                               System.out.println("You lost!");
                              }
-
-
-
     }
 }

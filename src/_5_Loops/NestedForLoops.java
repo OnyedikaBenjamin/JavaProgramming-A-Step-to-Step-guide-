@@ -8,11 +8,12 @@ public class NestedForLoops {
 
         for (int i = 0; i < array.length; i++) {
 
-            for(int j =1; j < array.length - i; j++){
-                System.out.print(array[j]);
+            for(int j = 1; j < array.length - i; j++){
+                System.out.print("*");
             }
             System.out.println();
         }
+        System.out.println("");
         //------------------------------------------------------------------------------------
         for (int i = 0; i <= array.length; i++) {
 

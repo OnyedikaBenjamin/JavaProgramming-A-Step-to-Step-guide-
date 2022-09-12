@@ -1,4 +1,5 @@
-/**  Write a program that prompts the user to enter two cities and displays them in alphabetical order  */
+//  Write a program that prompts the user to enter two cities and displays them in alphabetical order
+//  keyword 'compareTo' to sorts in alphabetical order.
 
 package _4_MathFunctionsCharactersAndStrings;
 

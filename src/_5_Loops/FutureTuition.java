@@ -7,7 +7,7 @@ public class FutureTuition {
 
     public static void main(String[] args) {
 
-        int tuition = 10_000;
+        int tuition = 10000;
         int yearsTaken = 0;
 
         while (tuition <= 20_000){

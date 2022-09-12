@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="Java">
+      <change afterPath="$PROJECT_DIR$/src/_5_Loops/Displays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TelevisionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Programming (A step to step guide).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Programming (A step to step guide).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/ComputeTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/ComputeTax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Lottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_3_Selections/Lottery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_4_MathFunctionsCharactersAndStrings/AlphabeticalOrderInJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_4_MathFunctionsCharactersAndStrings/AlphabeticalOrderInJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_4_MathFunctionsCharactersAndStrings/DietelChapter2Exercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_4_MathFunctionsCharactersAndStrings/UsingIncrementAndDecrementInChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_4_MathFunctionsCharactersAndStrings/UsingIncrementAndDecrementInChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/DietelChapter5Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/DietelChapter5Exercise.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/GreatestCommonDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/GreatestCommonDivisor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/MultiplicationTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_5_Loops/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/NestedForLoops.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_5_Loops/NestedForLoops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_9_ObjectsAndClasses/Television.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_9_ObjectsAndClasses/Television.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/ComputeLoanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/ComputeLoanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_3_Selections/ComputeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Selections/ComputeTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_3_Selections/Lottery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_3_Selections/Lottery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_4_MathFunctionsCharactersAndStrings/AlphabeticalOrderInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_4_MathFunctionsCharactersAndStrings/AlphabeticalOrderInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_4_MathFunctionsCharactersAndStrings/DietelChapter2Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_4_MathFunctionsCharactersAndStrings/CharAt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_4_MathFunctionsCharactersAndStrings/UsingIncrementAndDecrementInChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_4_MathFunctionsCharactersAndStrings/UsingIncrementAndDecrementInChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_5_Loops/DietelChapter5Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/DietelChapter5Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_5_Loops/FutureTuition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/FutureTuition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_5_Loops/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/GuessTheNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_5_Loops/NestedForLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_Loops/NestedForLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/Television.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +65,11 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,49 +85,13 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Others" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.GreatestCommonDivisor">
-    <configuration name="DetermineToday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3_Selections.DetermineToday" />
-      <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_3_Selections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Display" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_MultiDimensionalArrays.Display" />
-      <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_8_MultiDimensionalArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Display2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_MultiDimensionalArrays.Display2" />
-      <module name="Java Programming (A step to step guide)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_8_MultiDimensionalArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_5_Loops.GreatestCommonDivisor" />
+  <component name="RunManager" selected="Application.Displays">
+    <configuration name="Displays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_5_Loops.Displays" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="_5_Loops.MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_5_Loops.MultiplicationTable" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
@@ -132,13 +116,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_5_Loops.NestedForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_5_Loops.NestedForLoops" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_5_Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java Programming (A step to step guide)" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionTest.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java Programming (A step to step guide)" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionTest" />
+      <option name="METHOD_NAME" value="test14" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GreatestCommonDivisor" />
-        <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.Display2" />
-        <item itemvalue="Application.Display" />
-        <item itemvalue="Application.DetermineToday" />
+        <item itemvalue="Application.Displays" />
+        <item itemvalue="Application._5_Loops.NestedForLoops" />
+        <item itemvalue="Application._5_Loops.MultiplicationTable" />
+        <item itemvalue="JUnit.TelevisionTest" />
+        <item itemvalue="JUnit.TelevisionTest.test14" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +208,17 @@
       <workItem from="1662155467684" duration="614000" />
       <workItem from="1662190214346" duration="9186000" />
       <workItem from="1662271533847" duration="1085000" />
+      <workItem from="1662295280402" duration="4781000" />
+      <workItem from="1662402125812" duration="3369000" />
+      <workItem from="1662446938824" duration="2311000" />
+      <workItem from="1662605256396" duration="102000" />
+      <workItem from="1662649633693" duration="1339000" />
+      <workItem from="1662716443902" duration="3903000" />
+      <workItem from="1662778164154" duration="8003000" />
+      <workItem from="1662786267088" duration="7398000" />
+      <workItem from="1662794227860" duration="70000" />
+      <workItem from="1662882237104" duration="1185000" />
+      <workItem from="1662967843306" duration="11259000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -270,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662130717054</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Java">
+      <created>1662295355708</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662295355708</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +373,24 @@
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/TelevisionTest.java</url>
+          <line>15</line>
+          <properties class="TelevisionTest" method="test1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_5_Loops/Displays.java</url>
+          <line>4</line>
+          <properties class="_5_Loops.Displays" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
           <line>7</line>
@@ -353,6 +405,10 @@
           <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
           <line>22</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_3_Selections/ComputeTax.java</url>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

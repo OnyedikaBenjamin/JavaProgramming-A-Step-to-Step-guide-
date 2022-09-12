@@ -11,11 +11,11 @@ package _5_Loops;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter numberOfIntegers : ");
+        System.out.print("Enter number of Integers : ");
         int numberOfIntegers = input.nextInt();
         int maxOfNumbers = 0;
         int minOfNumbers = 1000000000;
-        for (int i =1; i <=numberOfIntegers ; i++) {
+        for (int i = 1; i <=numberOfIntegers ; i++) {
             System.out.println("Enter number" + i);
             int number = input.nextInt();
 

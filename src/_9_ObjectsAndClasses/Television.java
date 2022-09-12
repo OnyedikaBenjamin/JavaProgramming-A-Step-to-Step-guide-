@@ -1,64 +1,71 @@
 package _9_ObjectsAndClasses;
 
 public class Television {
-    private int channel;
-    private int volumeLevel;
-    private boolean on;
+    private int channel, volumeLevel, volumeLevelSaverBeforeMuting;
+    private boolean isOn, volumeMuted;
 
-    public Television (){}
-
+    public boolean isOn(){
+        return isOn;
+    }
     public void turnOn(){
-        on = true;
+        isOn = true;
+        channel = getChannel();
     }
     public void turnOff(){
-        on = false;
+        isOn = false;
     }
-    public void setChannel(int newChannel){
-      if(on && newChannel > 1 && newChannel <=120){
-          channel = newChannel;
-      }
+    public int getChannel() {
+        return channel;
+    }
+    public int getVolumeLevel() {
+        return volumeLevel;
+    }
+    public void setChannel(int newChannel) {
+        if (isOn && newChannel >= 1 && newChannel < 120){
+            channel = newChannel;
+        }
     }
     public void setVolume(int newVolume){
-        if (on && newVolume >= 1 && newVolume <=7){
+        if (isOn && newVolume >= 1 && newVolume < 7){
             volumeLevel = newVolume;
         }
     }
-
-    public void increaseChannelByOne(){
-        if (on && channel > 120){
+    public void channelUp(){
+        if (isOn && channel < 120){
             channel++;
         }
     }
-
-    public void decreaseChannelByOne(){
-        if (on && channel > 1){
+    public void channelDown(){
+        if (isOn && channel > 1){
             channel--;
         }
     }
-
     public void volumeUp(){
-        if (on && volumeLevel < 7){
+        if (isOn && volumeLevel < 7){
             volumeLevel++;
         }
     }
 
     public void volumeDown(){
-        if (on && volumeLevel > 1){
+        if (isOn && volumeLevel > 1){
             volumeLevel--;
         }
     }
-    public static void main(String[] args) {
-
-        Television tv = new Television();
-
-        tv.turnOn();
-        tv.setChannel(40);
-        tv.setVolume(6);
-        tv.increaseChannelByOne();
-        tv.volumeDown();
-
-        System.out.printf("%s%d%s%d", "The TV is at channel ", tv.channel, " and its at Volume ", tv.volumeLevel);
-
+    public void mute(){
+        if (isOn & volumeLevel > 1) {
+            volumeMuted = true;
+        volumeLevelSaverBeforeMuting = volumeLevel;
+            volumeLevel = 0;
+        }
+    }
+    public void unmute(){
+        if (isOn){
+          volumeMuted = false;
+          volumeLevel = volumeLevelSaverBeforeMuting;
+        }
+    }
+    public boolean volumeMuted(){
+        return volumeMuted;
     }
 
 }

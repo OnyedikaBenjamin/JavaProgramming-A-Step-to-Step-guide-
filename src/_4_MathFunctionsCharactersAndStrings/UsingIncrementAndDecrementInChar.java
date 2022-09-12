@@ -3,8 +3,6 @@
 next or preceding Unicode character. For example, the following statements display
 character b.
  */
-
-
 package _4_MathFunctionsCharactersAndStrings;
 
 public class UsingIncrementAndDecrementInChar {

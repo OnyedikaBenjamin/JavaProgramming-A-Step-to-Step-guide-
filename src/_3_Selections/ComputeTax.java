@@ -8,7 +8,6 @@ $1,082.50.
         the user to enter the filing status and taxable income and compute the tax. Enter 0 for single
         filers, 1 for married filing jointly or qualified widow(er), 2 for married filing separately, and
         3 for head of household.  */
-
 //   For each filing status there are six tax rates. Each rate is applied to a certain amount of
 //    taxable income. For example, of a taxable income of $400,000 for single filers, $8,350 is
 //     taxed at 10%, (33,950 – 8,350) at 15%, (82,250 – 33,950) at 25%, (171,550 – 82,250) at 28%,

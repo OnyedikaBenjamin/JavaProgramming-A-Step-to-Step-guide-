@@ -13,7 +13,7 @@ package _4_MathFunctionsCharactersAndStrings;
 
 import java.util.Scanner;
 
-public class DietelChapter2Exercise {
+public class CharAt {
 
     public static void main(String[] args) {
 
