@@ -1,31 +1,20 @@
 package _10_ObjectOrientedThinking;
 
-public class Course {
+public class Course{
     private String courseName;
-    private String [] students = new String[100]; // An array that can hold 100 Students name.
-    private int noOfStudents;
+    private String [] students = new String[100];
+    private int numberOfStudents;
 
-   public Course(String courseName){
-       this.courseName = courseName;
-   }
-   public void addStudent(String student){
-       students[noOfStudents] = student;
-       noOfStudents++;
-   }
-   public void dropStudent(){
-   }
-   public String getCourseName(){
-       return courseName;
-   }
-   public int getNoOfStudents(){
-       return noOfStudents;
-   }
-   public String[] getStudents(){
-       return students;
-   }
+    public Course(String courseName){
+        this.courseName = courseName;
+    }
+    public void addStudent(String student){
+        students[numberOfStudents] = student;
+        numberOfStudents++;
+    }
 
-
-
-
+    public String getCourseName(){
+        return courseName;
+    }
 
 }

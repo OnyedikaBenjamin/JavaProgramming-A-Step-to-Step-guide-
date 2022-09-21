@@ -6,14 +6,15 @@ public class ComputeLoanNew {
     private double annualInterest;
     private int numberOfYears;
     private double loanAmount;
-    java.util.Date date = new java.util.Date();
+    private java.util.Date loanDate;
     public ComputeLoanNew() {         // Default constructor
-        this(2.5, 1, 1000);
+        this(0, 0, 0);
     }
     public ComputeLoanNew(double annualInterest, int numberOfYears, double loanAmount){   // to construct an object with specified fields.
     this.annualInterest = annualInterest;
     this.numberOfYears = numberOfYears;
     this.loanAmount = loanAmount;
+    loanDate = new java.util.Date();
     }
     public void setAnnualInterest(double annualInterest) {
         validateAnnualInterest(annualInterest);
@@ -48,8 +49,8 @@ public class ComputeLoanNew {
     public double getLoanAmount() {
         return loanAmount;
     }
-    public Date getDate() {
-        return date;
+    public Date getLoanDate() {
+        return loanDate;
     }
     public double getMonthlyInterestRate(){
        double monthlyInterestRate;
@@ -73,7 +74,7 @@ public class ComputeLoanNew {
         loan1.setAnnualInterest(2.5);
         loan1.setNumberOfYears(5);
         loan1.setLoanAmount(1000);
-        System.out.println("The loan was created on " +  loan1.getDate());
+        System.out.println("The loan was created on " +  loan1.getLoanDate());
         System.out.printf("%s %f %n", "The monthly payment is ", loan1.getMonthlyPayment());
         System.out.printf("%s %f ", "The total payment is ",  loan1.getTotalPayment());
     }

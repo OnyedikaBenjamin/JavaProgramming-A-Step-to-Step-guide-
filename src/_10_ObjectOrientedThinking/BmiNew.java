@@ -99,7 +99,7 @@ public class BmiNew {
         test1.setAge(20);
         test1.setHeight(70);
         test1.setWeight(146);
-        System.out.print(test1.getName() + "(" + test1.getAge() + ") Body Mass Index is " +  test1.getBmi() + " with status " + test1.getStatus());
+        System.out.printf("%s%s%d%s%.2f%s%s",test1.getName(), "(", test1.getAge(),") Body Mass Index is ",test1.getBmi()," with status ",test1.getStatus());
 
     }
 }

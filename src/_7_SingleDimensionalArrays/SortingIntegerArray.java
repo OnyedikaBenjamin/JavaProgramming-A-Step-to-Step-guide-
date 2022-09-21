@@ -1,6 +1,6 @@
 package _7_SingleDimensionalArrays;
 
-public class SortingAnArray {
+public class SortingIntegerArray {
 
 
     public static void sort(int[]myList){
@@ -17,8 +17,8 @@ public class SortingAnArray {
                 }
             }
         }
-        for (int i = 0; i < myList.length; i++) {
-            System.out.println(myList[i]);
+        for (int j : myList) {
+            System.out.println(j);
         }
     }
 

@@ -12,5 +12,10 @@ public class SwapValuesOfVariables {
         y = temp;       //   y is now 1
 
         System.out.println("After the swap, x is " + x + " and y is " + y);
+
+        int a = 6;
+        int b = 10;
+        a = a ^ b ^ (b = a);
+        System.out.println("After the swap, a is " + a + " and b is " + b);
     }
 }

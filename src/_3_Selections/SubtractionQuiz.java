@@ -1,9 +1,7 @@
-   //  Suppose you want to develop a program for a first-grader to practice Subtraction,
+   //  Suppose you want to develop a program for a first-grader to practice Cai,
   //   the program randomly selects two digits and displays to the student a statement such as what is 9 - 2?
  //    After the student types an answer, it displays whether the answer is True or False.
 //     Generate using the Math.random() method.
-
-
 package _3_Selections;
 
    import java.util.Scanner;
