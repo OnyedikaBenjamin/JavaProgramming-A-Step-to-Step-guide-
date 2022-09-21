@@ -13,8 +13,10 @@ public class Main {
         placesToVisit.add("Canberra");
         placesToVisit.add("Adelaide");
         placesToVisit.add("Darwin");
-        placesToVisit.add("Alice Springs");
+
+        placesToVisit.add(1, "Alice Springs");
         placesToVisit.remove(4);
+
         printList(placesToVisit);
     }
 
