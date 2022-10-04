@@ -23,27 +23,21 @@ public class ComputeLoanNew {
     private void validateAnnualInterest(double annualInterest) {
         if (annualInterest < 0) throw new IllegalArgumentException
                 (String.format("%s", "Annual Interest cannot be less than 0"));
-    }
-    public void setNumberOfYears(int numberOfYears) {
+    }public void setNumberOfYears(int numberOfYears) {
         validateNumberOfYears(numberOfYears);
         this.numberOfYears = numberOfYears;
-    }
-    private void validateNumberOfYears(int numberOfYears) {
+    }private void validateNumberOfYears(int numberOfYears) {
         if (numberOfYears < 1) throw new IllegalArgumentException
                 (String.format("%s", "Number of years cannot be less than 1"));
-    }
-    public void setLoanAmount(double loanAmount) {
+    }public void setLoanAmount(double loanAmount) {
         validateLoanAmount(loanAmount);
         this.loanAmount = loanAmount;
-    }
-    private void validateLoanAmount(double loanAmount) {
+    }private void validateLoanAmount(double loanAmount) {
         if (loanAmount < 0) throw new IllegalArgumentException
                 (String.format("%s","Loan amount cannot be less than 0"));
-    }
-    public double getAnnualInterest() {
+    }public double getAnnualInterest() {
         return annualInterest;
-    }
-    public int getNumberOfYears() {
+    }public int getNumberOfYears() {
         return numberOfYears;
     }
     public double getLoanAmount() {
@@ -56,20 +50,16 @@ public class ComputeLoanNew {
        double monthlyInterestRate;
         monthlyInterestRate = getAnnualInterest() / 1200;
         return monthlyInterestRate;
-    }
-    public double getMonthlyPayment(){
+    }public double getMonthlyPayment(){
         double monthlyPayment;
         monthlyPayment = getLoanAmount() * getMonthlyInterestRate() / (1
                  - 1 / Math.pow(1 + getMonthlyInterestRate(), getNumberOfYears()* 12));
         return Math.round(monthlyPayment);
-    }
-    public double getTotalPayment(){
+    }public double getTotalPayment(){
         double totalPayment;
         totalPayment = getMonthlyPayment() * getNumberOfYears() * 12;
         return Math.round(totalPayment);
-    }
-    public static void main(String[] args) {
-
+    }public static void main(String[] args) {
         ComputeLoanNew loan1 = new ComputeLoanNew(2.5, 5, 1000);
         loan1.setAnnualInterest(2.5);
         loan1.setNumberOfYears(5);

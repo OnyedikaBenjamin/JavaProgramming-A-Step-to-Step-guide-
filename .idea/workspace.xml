@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="Java">
-      <change afterPath="$PROJECT_DIR$/src/_9_ObjectsAndClasses/DateClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/BigIntegerAndBigDecimalClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/Stack_BroCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/UsingWrapperClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/CAI/Computer_Assisted_Instruction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/CAI/Computer_Assisted_Instruction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/LinkedLists/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/LinkedLists/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_8_MultiDimensionalArrays/ArraysLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_8_MultiDimensionalArrays/ArraysLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/ComputeLoanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/ComputeLoanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/TelevisionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/TelevisionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/ComputeLoanNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/ComputeLoanNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/StackOfIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Programming (A step to step guide)/_10_ObjectOrientedThinking/StackOfIntegers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CAI/Computer_Assisted_Instruction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CAI/Computer_Assisted_Instruction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/ComputeLoanNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/ComputeLoanNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/StackOfIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_ObjectOrientedThinking/StackOfIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputeLoanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputeLoanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -76,23 +81,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Computer_Assisted_Instruction">
-    <configuration name="ArraysLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_8_MultiDimensionalArrays.ArraysLists" />
+  <component name="RunManager" selected="Application.BigIntegerAndBigDecimalClasses">
+    <configuration name="BigIntegerAndBigDecimalClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_ObjectOrientedThinking.BigIntegerAndBigDecimalClasses" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_8_MultiDimensionalArrays.*" />
+          <option name="PATTERN" value="_10_ObjectOrientedThinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputeLoanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComputeLoanTest" />
-      <module name="Java Programming (A step to step guide)" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_9_ObjectsAndClasses.DateClass" />
+    <configuration name="Course" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_ObjectOrientedThinking.Course" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_9_ObjectsAndClasses.*" />
+          <option name="PATTERN" value="_10_ObjectOrientedThinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +121,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedLists.Main" />
+    <configuration name="Stack_BroCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_ObjectOrientedThinking.Stack_BroCode" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedLists.*" />
+          <option name="PATTERN" value="_10_ObjectOrientedThinking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_10_ObjectOrientedThinking.UsingWrapperClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_ObjectOrientedThinking.UsingWrapperClasses" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_ObjectOrientedThinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigIntegerAndBigDecimalClasses" />
+        <item itemvalue="Application._10_ObjectOrientedThinking.UsingWrapperClasses" />
         <item itemvalue="Application.Computer_Assisted_Instruction" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DateClass" />
-        <item itemvalue="Application.ComputeLoanTest" />
-        <item itemvalue="Application.ArraysLists" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +245,14 @@
       <workItem from="1664161935550" duration="3795000" />
       <workItem from="1664260205088" duration="874000" />
       <workItem from="1664339602441" duration="3952000" />
-      <workItem from="1664372363337" duration="2032000" />
+      <workItem from="1664372363337" duration="2599000" />
+      <workItem from="1664376939889" duration="133000" />
+      <workItem from="1664377475925" duration="6107000" />
+      <workItem from="1664424794463" duration="2000000" />
+      <workItem from="1664444078226" duration="5975000" />
+      <workItem from="1664544564253" duration="8233000" />
+      <workItem from="1664673930945" duration="10128000" />
+      <workItem from="1664766863752" duration="11587000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -343,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663753770131</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Java">
+      <created>1664374579878</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664374579879</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +386,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java" />
     <option name="LAST_COMMIT_MESSAGE" value="Java" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,8 +402,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/_10_ObjectOrientedThinking/ComputeLoanNew.java</url>
-          <line>70</line>
-          <properties class="_10_ObjectOrientedThinking.ComputeLoanNew" method="main">
+          <line>61</line>
+          <properties class="_10_ObjectOrientedThinking.ComputeLoanNew">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -396,7 +420,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
-          <line>15</line>
+          <line>14</line>
           <properties class="ComputeLoanTest" method="test1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -433,7 +457,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CAI/Computer_Aided_Instruction.java</url>
           <line>30</line>
-          <properties class="_6_Methods.Computer_Aided_Instruction" method="promptUser">
+          <properties class="_6_Methods.Computer_Aided_Instruction">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -451,7 +475,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/ComputeLoanTest.java</url>
-          <line>26</line>
+          <line>24</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

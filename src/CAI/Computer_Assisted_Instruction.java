@@ -297,7 +297,7 @@ import java.security.SecureRandom;
                 System.out.println("Please ask your teacher for extra help");
                 System.out.println("Press 'Y' to reset");
                 if (scan.readLine().equalsIgnoreCase("Y")) {
-                    correctCount=0;wrongCount=0;percentage=0;
+                    correctCount=0;wrongCount=0;
                     startMultiplicationQuiz();}
             }
             else {
@@ -430,7 +430,7 @@ import java.security.SecureRandom;
         }
         @Label("computes iterables for any quiz") public static void calculateAnyQizIterables() throws IOException {
             BufferedReader scan = new BufferedReader(new InputStreamReader(System.in));
-            percentage = (double)(correctCount / numberOfQuestion) * 100;
+            percentage = correctCount / numberOfQuestion;
             System.out.printf("%n%s%d%n%s%d%n%s%.2f%n", "Correct count -> ", correctCount,
                     "Wrong count -> ", wrongCount, "Percentage -> %", percentage);
             if(percentage < 75){
@@ -440,7 +440,7 @@ import java.security.SecureRandom;
                 System.out.println("Congratulations!");
                 System.out.println("Press 'Y' to continue or any key to quit");}
             if (scan.readLine().equalsIgnoreCase("Y")) {
-                correctCount=0;wrongCount=0;percentage=0;
+                correctCount=0;wrongCount=0;
                 startAnyQuiz();
             }
         }

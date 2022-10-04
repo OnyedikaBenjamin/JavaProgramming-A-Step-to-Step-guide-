@@ -10,25 +10,22 @@ public class ComputeLoanTest {
     @BeforeEach
     void setUp(){
        loan2 = new ComputeLoanNew();
-    }
-    @Test
+    }@Test
     @DisplayName("Test that Monthly payments cannot be calculated with negative values")
     public void test1(){
         loan2.setAnnualInterest(-2.5);
         loan2.setNumberOfYears(5);
         loan2.setLoanAmount(1000);
         assertNotEquals(18, loan2.getMonthlyPayment());
-    }
-    @Test
-    @DisplayName("Test that monthly payments can be calculated")
+    }@Test
+    @DisplayName("Test that monthly payments can be computed with proper values")
     public void test2(){
         assertNotEquals(18, loan2.getMonthlyPayment());
         loan2.setAnnualInterest(2.5);
         loan2.setNumberOfYears(5);
         loan2.setLoanAmount(1000);
         assertEquals(18, loan2.getMonthlyPayment());
-    }
-    @Test
+    }@Test
     @DisplayName("Test that total payments can be calculated")
     public void test3(){
         loan2.setAnnualInterest(2.5);
