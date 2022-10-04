@@ -2,11 +2,9 @@ package _10_ObjectOrientedThinking;
 // Stack uses the last in first out principle
 // We can use stack to undo and redo (i.e Web browser moving back and front)
 
-import java.util.Stack;
-
-public class Stack_BroCode {
+public class Stack {
     public static void main(String[] args) {
-        Stack<String> gameStack = new Stack<String>();
+        java.util.Stack<String> gameStack = new java.util.Stack<String>();
 
         //Check if our stack is empty
         System.out.println(gameStack.empty());
