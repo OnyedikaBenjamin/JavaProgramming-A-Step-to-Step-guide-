@@ -16,7 +16,7 @@ public class Stack {
         gameStack.push("Borderlands");
         gameStack.push("Fast And Furious");
 
-        // Now that we have added items to the game stack, let's check if the stack is empty again
+        // Now that we have added items to the game stack, let's checkAndPrint if the stack is empty again
         System.out.println("Is the game stack empty? -> " + gameStack.empty());
 
         // let's print our stack

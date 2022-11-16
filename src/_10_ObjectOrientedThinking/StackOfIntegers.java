@@ -1,9 +1,9 @@
 package _10_ObjectOrientedThinking;
 
 public class StackOfIntegers {
+ public static final int defaultCapacity = 16;
  private int[] elements;
  private int size;
- public static final int defaultCapacity = 16;
 
  // Construct a stack with the default capacity 16
    public StackOfIntegers() {

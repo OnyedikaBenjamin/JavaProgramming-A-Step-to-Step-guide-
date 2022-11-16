@@ -1,0 +1,10 @@
+1)  All methods in an interface must be an abstract method.
+2)  Variables declared in the Java Interface are by default final.
+3)  An Interface cannot have a constructor, remember its variables are final which means it cannot be overridden.
+4)  An abstract class can provide the implementation of the interface
+    but the interface cannot provide the implementation of the Abstract class
+5)  In the abstract class, we use 'Extends' keyword, but in the interface class, we use 'Implements' keyword.
+6)  An Interface can implement multiple interface but an abstract class can only extend one.
+7) Interface to Interface, we use the keyword extends, Classes to Interface, we use the keyword implements.
+8) Static interface methods should must have a body.
+9

@@ -9,12 +9,12 @@ import java.security.SecureRandom;
 
     @Label("Aimed at assisting elementary students learn basic calculations")
     public class Computer_Assisted_Instruction {
+        private final static SecureRandom randomNumbers = new SecureRandom();
+        private static final int numberOfQuestion=4;
         private static int correctCount=0,wrongCount=0;
         private static int answer;
         private static String userAnswer,userRemainder,quizToTake;
         private static int firstNumber,secondNumber,remainder;
-        private final static SecureRandom randomNumbers = new SecureRandom();
-        private static final int numberOfQuestion=4;
         private static double percentage=0;
         private static int additionLevel=1,subtractionLevel=1,multiplicationLevel=1,divisionLevel=1;
 
@@ -115,8 +115,7 @@ import java.security.SecureRandom;
             }
             if (Integer.parseInt(quizToTake) == 5){calculateAnyQizIterables();}
             else {calculateAdditionIterables();}
-        }
-        @Label("attributed with bi-digits only")public static void additionLevel3() throws IOException {
+        }@Label("attributed with bi-digits only")public static void additionLevel3() throws IOException {
             for (int k = 0; k < numberOfQuestion; k++) {
                 firstNumber = 10 + randomNumbers.nextInt(20);
                 secondNumber = 10 + randomNumbers.nextInt(20);

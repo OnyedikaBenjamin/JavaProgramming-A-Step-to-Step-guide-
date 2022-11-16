@@ -1,7 +1,5 @@
 package _10_ObjectOrientedThinking;
 
-import javax.sound.midi.Soundbank;
-
 public class Course{
     private String courseName;
     private String[] students = new String[100];
@@ -10,20 +8,6 @@ public class Course{
     public Course(String courseName){
         this.courseName = "CourseName";
     }
-    public void addStudents(String student){
-       students[noOfStudents] = student;
-       noOfStudents++;
-    }
-    public String[] getStudents(){
-        return students;
-    }
-    public int getNoOfStudents(){
-        return noOfStudents;
-    }
-    public String getCourseName(){
-        return courseName;
-    }
-    public void dropStudent(){}
 
     public static void main(String[] args) {
         Course course1 = new Course("Data Base Management");
@@ -38,5 +22,24 @@ public class Course{
 
 
     }
+
+    public void addStudents(String student){
+       students[noOfStudents] = student;
+       noOfStudents++;
+    }
+
+    public String[] getStudents(){
+        return students;
+    }
+
+    public int getNoOfStudents(){
+        return noOfStudents;
+    }
+
+    public String getCourseName(){
+        return courseName;
+    }
+
+    public void dropStudent(){}
 
 }

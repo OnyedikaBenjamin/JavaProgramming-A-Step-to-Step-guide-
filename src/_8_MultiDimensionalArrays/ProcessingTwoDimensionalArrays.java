@@ -7,34 +7,34 @@ public class ProcessingTwoDimensionalArrays {
 
             // Here we declared our 2-dimensional array with 10 rows and 10 columns.
 
-        double[][] matrix = new double[10][10];
+        double[][] arrayList = new double[10][10];
 
 
          // -------------(1) Initializing arrays with input values.-------------------
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter " + matrix.length + " rows and " + matrix[0].length + " columns.");
-        for(int rows =0; rows < matrix.length; rows++){
-            for(int columns =0; columns < matrix[0].length; columns++){
-                matrix[rows][columns] = input.nextInt();
+        System.out.println("Enter " + arrayList.length + " rows and " + arrayList[0].length + " columns.");
+        for(int rows =0; rows < arrayList.length; rows++){
+            for(int columns =0; columns < arrayList[0].length; columns++){
+                arrayList[rows][columns] = input.nextInt();
             }
         }
 
         // -----------(2) Initializing arrays with random values ---------------------
 
-        for (int row = 0; row < matrix.length; row++) {
-            for (int column = 0; column < matrix[row].length; column++) {
-                matrix[row][column] = (int) (Math.random() * 100);
-                System.out.print(matrix[row][column] + " ");
+        for (int row = 0; row < arrayList.length; row++) {
+            for (int column = 0; column < arrayList[row].length; column++) {
+                arrayList[row][column] = (int) (Math.random() * 100);
+                System.out.print(arrayList[row][column] + " ");
             }
         }
 
         //--------------- (3) Printing arrays ----------------------------------------
 
-        for (int row = 0; row < matrix.length; row++) {
-            for (int column = 0; column < matrix[row].length; column++) {
-                System.out.print(matrix[row][column] + " ");
+        for (int row = 0; row < arrayList.length; row++) {
+            for (int column = 0; column < arrayList[row].length; column++) {
+                System.out.print(arrayList[row][column] + " ");
             }
             System.out.println();       // If this line of code is not included, the elements of the array will be printed on one line.
         }
@@ -43,9 +43,9 @@ public class ProcessingTwoDimensionalArrays {
         //--------------(4) Summing elements by column ------------------------------
 
         int total = 0;
-        for (int row = 0; row < matrix.length; row++) {
-            for (int column = 0; column < matrix[row].length; column++) {
-                total += matrix[row][column];
+        for (int row = 0; row < arrayList.length; row++) {
+            for (int column = 0; column < arrayList[row].length; column++) {
+                total += arrayList[row][column];
             }
         }
 
@@ -56,13 +56,13 @@ public class ProcessingTwoDimensionalArrays {
 
        /** Get sum of the first row in maxRow */
 
-        for (int column = 0; column < matrix[0].length; column++) {
-            maxRow += matrix[0][column];
+        for (int column = 0; column < arrayList[0].length; column++) {
+            maxRow += arrayList[0][column];
         }
-        for (int row = 1; row < matrix.length; row++) {
+        for (int row = 1; row < arrayList.length; row++) {
             int totalOfThisRow = 0;
-            for (int column = 0; column < matrix[row].length; column++)
-                totalOfThisRow += matrix[row][column];
+            for (int column = 0; column < arrayList[row].length; column++)
+                totalOfThisRow += arrayList[row][column];
             if (totalOfThisRow > maxRow) {
                 maxRow = totalOfThisRow;
                 indexOfMaxRow = row;
@@ -73,14 +73,14 @@ public class ProcessingTwoDimensionalArrays {
 
         //----------(6) How do we shuffle all the elements in a two-dimensional array? ---------
 
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                int i1 = (int)(Math.random() * matrix.length);
-                int j1 = (int)(Math.random() * matrix[i].length);
-// Swap matrix[i][j] with matrix[i1][j1]
-                double temp = matrix[i][j];
-                matrix[i][j] = matrix[i1][j1];
-                matrix[i1][j1] = temp;
+        for (int i = 0; i < arrayList.length; i++) {
+            for (int j = 0; j < arrayList[i].length; j++) {
+                int i1 = (int)(Math.random() * arrayList.length);
+                int j1 = (int)(Math.random() * arrayList[i].length);
+// Swap arrayList[i][j] with arrayList[i1][j1]
+                double temp = arrayList[i][j];
+                arrayList[i][j] = arrayList[i1][j1];
+                arrayList[i1][j1] = temp;
             }
         }
 

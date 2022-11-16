@@ -29,7 +29,7 @@ public class Employee {
 
         for (int row = 0; row < rowLength; row++) {
             for (int col = 0; col < columnLength; col++) {
-                sum = sum + employeeWorkHours[row][col];
+                sum += employeeWorkHours[row][col];
             }
             sumOfWorkingHour[row] = sum;
             sum = 0;
@@ -38,9 +38,8 @@ public class Employee {
         // Sort
         for (int i = 1; i < sumOfWorkingHour.length; i++) {
             for (int j = i; j > 0; j--) {
-                int temp;
                 if (sumOfWorkingHour[j] > sumOfWorkingHour [j - 1]) {
-                    temp = sumOfWorkingHour[j];
+                    int temp = sumOfWorkingHour[j];
                     sumOfWorkingHour[j] = sumOfWorkingHour[j - 1];
                     sumOfWorkingHour[j - 1] = temp;
 
@@ -54,5 +53,3 @@ public class Employee {
 
     }
 }
-
-

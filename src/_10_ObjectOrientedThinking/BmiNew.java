@@ -11,12 +11,12 @@
 
 package _10_ObjectOrientedThinking;
 public class BmiNew {
+    public static final double KilogramsPerPound = 0.45359237;
+    public static final double metersPerInch = 0.0254;
     private String name;
     private int age;
     private double weight;
     private double height;
-    public static final double KilogramsPerPound = 0.45359237;
-    public static final double metersPerInch = 0.0254;
 
     public BmiNew(String name, int age, double weight, double height) {
         this.name = name;
@@ -28,21 +28,59 @@ public class BmiNew {
     public BmiNew() {
         this("Aisha", 0, 0.00, 0.00);
     }
-    public void setName(String name) {
-        validateName(name);
-        this.name = name;
+
+    public static void main(String[] args) {
+        BmiNew test1 = new BmiNew();
+        test1.setName("Timmy");
+        test1.setAge(20);
+        test1.setHeight(70);
+        test1.setWeight(146);
+        System.out.printf("%s%s%d%s%.2f%s%s",test1.getName(), "(", test1.getAge(),") Body Mass Index is ",test1.getBmi()," with status ",test1.getStatus());
+
     }
+
     private void validateName(String name) {
         if (name.isBlank() || name.isEmpty()) throw new IllegalArgumentException
                 ("Name field cannot be left blank");
     }
+
+    private void validateAge(int age) {
+        if (age < 0) throw new IllegalArgumentException
+                ("Age cannot be less than 0");
+    }
+
+    private void validateWeight(double weight) {
+        if (weight < 0) throw new IllegalArgumentException
+                ("Weight cannot be less than 0");
+    }
+
+    private void validateHeight(double height) {
+        if (height < 0) throw new IllegalArgumentException
+                ("Height cannot be less than 0");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        validateName(name);
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     public void setAge(int age) {
         validateAge(age);
         this.age = age;
     }
-    private void validateAge(int age) {
-        if (age < 0) throw new IllegalArgumentException
-                ("Age cannot be less than 0");
+
+    public double getWeight() {
+        double weightInKg;
+        weightInKg = weight * KilogramsPerPound;
+        return weightInKg;
     }
 
     public void setWeight(double weight) {
@@ -50,39 +88,23 @@ public class BmiNew {
         this.weight = weight;
     }
 
-    private void validateWeight(double weight) {
-        if (weight < 0) throw new IllegalArgumentException
-                ("Weight cannot be less than 0");
-    }
-    public void setHeight(double height) {
-        validateHeight(height);
-        this.height = height;
-    }
-    private void validateHeight(double height) {
-        if (height < 0) throw new IllegalArgumentException
-                ("Height cannot be less than 0");
-    }
-    public String getName() {
-        return name;
-    }
-    public int getAge() {
-        return age;
-    }
-    public double getWeight() {
-        double weightInKg;
-        weightInKg = weight * KilogramsPerPound;
-        return weightInKg;
-    }
     public double getHeight() {
         double heightInMeters;
         heightInMeters = height * metersPerInch;
         return heightInMeters;
     }
+
+    public void setHeight(double height) {
+        validateHeight(height);
+        this.height = height;
+    }
+
     public double getBmi() {
         double bmi;
         bmi = getWeight() / Math.pow(getHeight(), 2);
         return bmi;
     }
+
     public String getStatus(){
        if(getBmi() < 18.5)
            return "Underweight";
@@ -92,14 +114,5 @@ public class BmiNew {
         return "OverWeight";
        else
         return "Obese";
-    }
-    public static void main(String[] args) {
-        BmiNew test1 = new BmiNew();
-        test1.setName("Timmy");
-        test1.setAge(20);
-        test1.setHeight(70);
-        test1.setWeight(146);
-        System.out.printf("%s%s%d%s%.2f%s%s",test1.getName(), "(", test1.getAge(),") Body Mass Index is ",test1.getBmi()," with status ",test1.getStatus());
-
     }
 }
