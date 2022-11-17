@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Java Programming (A step to step guide)" options="--add-exports jdk.hotspot.agent/sun.jvm.hotspot.debugger.win32.coff=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

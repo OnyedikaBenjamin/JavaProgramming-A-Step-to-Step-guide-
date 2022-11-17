@@ -7,4 +7,6 @@
 6)  An Interface can implement multiple interface but an abstract class can only extend one.
 7) Interface to Interface, we use the keyword extends, Classes to Interface, we use the keyword implements.
 8) Static interface methods should must have a body.
-9
+9) Interfaces are used in Java to achieve abstraction. By using the implements keyword, a java class can implement
+   an interface. In general terms, an interface can be defined as a container that stores the signatures of the methods
+   to be implemented in the code segment. It improves the levels of Abstraction.
