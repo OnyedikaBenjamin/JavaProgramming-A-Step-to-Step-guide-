@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TodoApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalInheritance/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/GenericPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/GenericPrinterOOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Genereics/NormalPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kunal/Generics/GenericsWithOOP/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/BikeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/BikeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/TelevisionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/TelevisionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Interface/NotesOnInterface" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Interface/NotesOnInterface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,37 +46,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/test&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/TodoApp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/Kumal/Interface/interfaces&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "last_directory_selection": "C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/test",
+    "last_opened_file_path": "C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/John_Genereics",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "shared-indexes",
+    "two.files.diff.last.used.folder": "C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/Kumal/Interface/interfaces"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\Java Programming (A step to step guide)\src\John_Genereics" />
       <recent name="C:\Users\USER\IdeaProjects\Java Programming (A step to step guide)\src\Kunal\Interface2\interfaces" />
       <recent name="C:\Users\USER\IdeaProjects\Java Programming (A step to step guide)\src\Kunal\Interface2" />
       <recent name="C:\Users\USER\IdeaProjects\Java Programming (A step to step guide)\src\Kumal\Interface\main" />
@@ -95,12 +102,40 @@
       <recent name="Others" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="John_Genereics" />
+      <recent name="Kunal.Generics" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomArrayList">
-    <configuration name="CustomArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kunal.Generics.CustomArrayList" />
+  <component name="RunManager" selected="Application.GenericPrinter">
+    <configuration name="ComputeTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_3_Selections.ComputeTax" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_3_Selections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="John_Genereics.GenericPrinter" />
+      <module name="Java Programming (A step to step guide)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="John_Genereics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kunal.Generics.CustomArrayList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kunal.Generics.CustomArrayList2" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
@@ -112,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kunal.Interface.main.Main" />
+    <configuration name="NormalPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kunal.Generics.NormalPrinter" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kunal.Interface.main.*" />
+          <option name="PATTERN" value="Kunal.Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,33 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelevisionTest.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Programming (A step to step guide)" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelevisionTest" />
-      <option name="METHOD_NAME" value="test14" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelevisionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Programming (A step to step guide)" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelevisionTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomArrayList" />
+        <item itemvalue="Application.GenericPrinter" />
+        <item itemvalue="Application.NormalPrinter" />
+        <item itemvalue="Application.Kunal.Generics.CustomArrayList2" />
+        <item itemvalue="Application.ComputeTax" />
         <item itemvalue="Application.PD.TodoApp.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TelevisionTest.test2" />
-        <item itemvalue="JUnit.TelevisionTest.test14" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +326,10 @@
       <workItem from="1668512780060" duration="35525000" />
       <workItem from="1668654200716" duration="3962000" />
       <workItem from="1668662750154" duration="67000" />
-      <workItem from="1668662842913" duration="2407000" />
+      <workItem from="1668662842913" duration="35382000" />
+      <workItem from="1668900645862" duration="9903000" />
+      <workItem from="1668948806314" duration="78000" />
+      <workItem from="1668948923602" duration="11692000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -453,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668573197421</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Java">
+      <created>1668665353943</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668665353943</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,6 +684,12 @@
           <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="18" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/AnimalInheritance/Cat.java</url>
+          <line>3</line>
+          <properties field="tail" class="AnimalInheritance.Cat" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
