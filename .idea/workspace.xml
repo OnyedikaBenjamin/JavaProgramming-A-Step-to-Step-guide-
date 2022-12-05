@@ -2,19 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84861ca-9100-44f1-809a-7d37cb12a944" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AnimalInheritance/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/GenericPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/GenericPrinterOOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/John_Genereics/NormalPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kunal/Generics/GenericsWithOOP/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dietel_Exercise/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionsHandling/ExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionsHandling/StudentPoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExceptionsHandling/StudentPoll2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HumbleMe/Nokia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HumbleMe/packingGarage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Enum/DaysOfTheWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/John_Enum/EnumTutorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/CircleWithCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/CircleWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/InputMismatchExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/InvalidRadiusException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/Quotient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/QuotientWithException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/QuotientWithMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_ExceptionHandlingAndTextIO/QuotientWith_IFStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/OutlierTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Generics/CustomArrayList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/BikeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/BmiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/ComputeLoanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/CopyArrayTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/NativeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Java Programming (A step to step guide)/TelevisionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/John_Genereics/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/John_Genereics/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/John_Genereics/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/John_Genereics/GenericPrinterOOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/John_Genereics/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kunal/Generics/GenericsWithOOP/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Generics/GenericsWithOOP/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kunal/Interface/MyCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kunal/Interface/MyCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +45,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -46,32 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "full.screen.before.presentation.mode": "true",
-    "last_directory_selection": "C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/test",
-    "last_opened_file_path": "C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/John_Genereics",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "shared-indexes",
-    "two.files.diff.last.used.folder": "C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/Kumal/Interface/interfaces"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/TodoApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/USER/IdeaProjects/Java Programming (A step to step guide)/src/Kumal/Interface/interfaces&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -107,13 +126,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericPrinter">
-    <configuration name="ComputeTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3_Selections.ComputeTax" />
+  <component name="RunManager" selected="Application.CircleWithCustomException">
+    <configuration name="CircleWithCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_ExceptionHandlingAndTextIO.CircleWithCustomException" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_3_Selections.*" />
+          <option name="PATTERN" value="_12_ExceptionHandlingAndTextIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="John_Genereics.GenericPrinter" />
+    <configuration name="CircleWithException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_ExceptionHandlingAndTextIO.CircleWithException" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="John_Genereics.*" />
+          <option name="PATTERN" value="_12_ExceptionHandlingAndTextIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kunal.Generics.CustomArrayList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kunal.Generics.CustomArrayList2" />
+    <configuration name="InputMismatchExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_ExceptionHandlingAndTextIO.InputMismatchExceptionDemo" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kunal.Generics.*" />
+          <option name="PATTERN" value="_12_ExceptionHandlingAndTextIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kunal.Generics.NormalPrinter" />
+    <configuration name="QuotientWithException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_ExceptionHandlingAndTextIO.QuotientWithException" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Kunal.Generics.*" />
+          <option name="PATTERN" value="_12_ExceptionHandlingAndTextIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PD.TodoApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PD.TodoApp.Main" />
+    <configuration name="packingGarage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HumbleMe.packingGarage" />
       <module name="Java Programming (A step to step guide)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PD.TodoApp.*" />
+          <option name="PATTERN" value="HumbleMe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericPrinter" />
-        <item itemvalue="Application.NormalPrinter" />
-        <item itemvalue="Application.Kunal.Generics.CustomArrayList2" />
-        <item itemvalue="Application.ComputeTax" />
-        <item itemvalue="Application.PD.TodoApp.Main" />
+        <item itemvalue="Application.CircleWithCustomException" />
+        <item itemvalue="Application.CircleWithException" />
+        <item itemvalue="Application.InputMismatchExceptionDemo" />
+        <item itemvalue="Application.packingGarage" />
+        <item itemvalue="Application.QuotientWithException" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +348,39 @@
       <workItem from="1668662842913" duration="35382000" />
       <workItem from="1668900645862" duration="9903000" />
       <workItem from="1668948806314" duration="78000" />
-      <workItem from="1668948923602" duration="11692000" />
+      <workItem from="1668948923602" duration="14595000" />
+      <workItem from="1669051124112" duration="4783000" />
+      <workItem from="1669102230531" duration="324000" />
+      <workItem from="1669103458615" duration="19000" />
+      <workItem from="1669103503630" duration="138000" />
+      <workItem from="1669104851432" duration="19000" />
+      <workItem from="1669110122680" duration="11000" />
+      <workItem from="1669111073988" duration="25000" />
+      <workItem from="1669113942289" duration="596000" />
+      <workItem from="1669114577104" duration="10000" />
+      <workItem from="1669115696468" duration="1024000" />
+      <workItem from="1669117896369" duration="1081000" />
+      <workItem from="1669119013131" duration="4355000" />
+      <workItem from="1669125595542" duration="129000" />
+      <workItem from="1669128425941" duration="172000" />
+      <workItem from="1669128693527" duration="37000" />
+      <workItem from="1669190784423" duration="16763000" />
+      <workItem from="1669324875066" duration="4082000" />
+      <workItem from="1669358877678" duration="2527000" />
+      <workItem from="1669375121158" duration="4413000" />
+      <workItem from="1669577225447" duration="3213000" />
+      <workItem from="1669580579631" duration="3615000" />
+      <workItem from="1669587031462" duration="1873000" />
+      <workItem from="1669685790027" duration="154000" />
+      <workItem from="1669685978568" duration="2699000" />
+      <workItem from="1669689484438" duration="6380000" />
+      <workItem from="1669746572144" duration="17587000" />
+      <workItem from="1669916478811" duration="37383000" />
+      <workItem from="1669984161919" duration="15857000" />
+      <workItem from="1670132124827" duration="9503000" />
+      <workItem from="1670153069849" duration="1851000" />
+      <workItem from="1670166026984" duration="40000" />
+      <workItem from="1670169012771" duration="8908000" />
     </task>
     <task id="LOCAL-00001" summary="Java">
       <created>1661067693062</created>
@@ -478,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668665353943</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Java">
+      <created>1669016384346</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1669016384346</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +573,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/_10_ObjectOrientedThinking/ComputeLoanNew.java</url>
           <line>61</line>
-          <properties class="_9_ObjectsAndClasses._10_ObjectOrientedThinking.ComputeLoanNew">
+          <properties class="_10_ObjectOrientedThinking.ComputeLoanNew">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -675,6 +733,16 @@
           <url>file://$PROJECT_DIR$/src/TodoApp/App/Task.java</url>
           <line>38</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExceptionsHandling/StudentPoll.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TodoApp/DataSorting/ProjectSorting.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

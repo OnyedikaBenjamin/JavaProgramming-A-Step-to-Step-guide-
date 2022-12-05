@@ -3,7 +3,7 @@ package Kunal.Interface;
 import Kunal.Interface.interfaces.Engine;
 import Kunal.Interface.interfaces.Media;
 
-public class MyCar {
+public class MyCar implements Engine, Media{
     private Engine myCarEngine;
     private Media myCarPlayer;
 

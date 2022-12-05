@@ -9,7 +9,6 @@ T thingToPrint;                      @Ben_Billion_Notes("What we want to print i
 public Printer(T thingToPrint) {
     this.thingToPrint = thingToPrint;
 }
-
     public static void main(String[] args) {
         @Ben_Billion_Explanation("We can now instantiate our printer object to print something of type integer")
         Printer<Integer> printer = new Printer<>(777);
