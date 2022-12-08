@@ -2,37 +2,33 @@ package _10_ObjectOrientedThinking;
 
 public class UsingWrapperClasses {
     public static void main(String[] args) {
-        // Using the compareTo wrapper class
-        Integer x = 3;
-        System.out.printf("%s%d%n","x is ", x);
-        System.out.printf("%d%s%n",x.compareTo(4), " -> returns -1 because x is less than 4");
 
-        Integer y = 7;
+        // The numeric wrapper classes contain the "compareTo method" for comparing two numbers
+        System.out.println(new Double(12.4).compareTo(new Double(12.3)));  //returns 1;
+        System.out.println(new Double(12.3).compareTo(new Double(12.3))); //returns 0;
+        System.out.println(Double.compare(12.3, 12.51));                              //returns -1;
+
+        Integer x = 3, y = 7, z = 7;
+        System.out.printf("%d%s%n",x.compareTo(y), " -> returns -1 because x is less than y");
         System.out.printf("%d%s%n",y.compareTo(x), " -> returns 1 because y is greater than x");
-
-        Integer z = 7;
         System.out.printf("%d%s%n",z.compareTo(y), " -> returns 0 because z is equal to y");
 
+
+        // The parseInt and parseDouble classes are used to parse a numeric figure into a digit or floating point value.
+        String element = "345.78";
+//        System.out.println(Integer.parseInt(element)); // this returns the numeric value in the String element.
+        System.out.println(Double.parseDouble(element)); // This returns the double value of the String element.
+
         // Using the valueOf wrapper class
-         int c = Integer.valueOf("23");
-        System.out.println("c -> " + c);
-         double f = Double.valueOf("23.45");
-        System.out.println("f is " + f);
+        String ID = "678.12";
+        System.out.println(Double.valueOf(ID));   // This returns 678.12 that is the double value of ID.
 
-         // Using the intValue() wrapper class..This will firstly do everything in the in
-         int g = (Integer.valueOf("23")).intValue();
-        System.out.println("g is " + g);
-         double h = (Double.valueOf("23.4")).doubleValue();
-        System.out.println("h is " + h);
-         int i = (Double.valueOf("23.4")).intValue();
-        System.out.println("i is " + i);
-         String j = (Double.valueOf("23.4")).toString();
-        System.out.println("j is " + j);
-
-        // Using the parseInt
-
-        Integer k = 3 + new Integer(5);
-
+        // Using the intValue() and doubleValue() wrapper classes..This will first compute the Double.valueOf or Int.valueOf
+        // and then return the value in an int or doubleValue as specified.
+        String amount = "919.789";
+        System.out.println("a is " + Double.valueOf(amount).doubleValue());  // This will return 919.789
+        System.out.println("b is " + Double.valueOf(amount).intValue());  // This will return 919
+        System.out.println("c is " + Double.valueOf(amount).toString());    // This will return the string value of amount that is 919.789
 
     }
 }
